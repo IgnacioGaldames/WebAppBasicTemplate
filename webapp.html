@@ -3,15 +3,17 @@
 <!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
 <!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="" manifest="demo.manifest">
+<html class="" manifest="cache.manifest">
 <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Documento sin título</title>
+<title>Web App Template</title>
+<link href="webapp.css" rel="stylesheet" type="text/css">
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
+
+<!-- Animate-->
 <link href="animate.min.css" rel="stylesheet" type="text/css">
 
-<link href="webapp.css" rel="stylesheet" type="text/css">
 <!-- web app on-->
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -47,17 +49,19 @@ Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.
 * añada la clase "no-js" a las etiquetas html en la parte superior
 * también puede eliminar el vínculo con respond.min.js si ha incluido MQ Polyfill en su compilación de modernizr 
 -->
+
+<!-- Add 2 Home-->
+<link rel="stylesheet" href="add2home.css">
+<script type="application/javascript" src="add2home.js"></script>
+
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+
 <script src="respond.min.js"></script>
-<script type="text/javascript">
-function updateSite(event) {
-    window.applicationCache.swapCache();
-}
-window.applicationCache.addEventListener('updateready',
-    updateSite, false);
-</script>
+
+<!-- cache update-->
+<script type="text/javascript" src="cacheupdate.js"></script>
 
 </head>
 <body>
