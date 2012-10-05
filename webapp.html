@@ -1,0 +1,68 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="" manifest="demo.manifest">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="animate.min.css" rel="stylesheet" type="text/css">
+
+<link href="webapp.css" rel="stylesheet" type="text/css">
+<!-- web app on-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="viewport" content="width=device-width">
+
+<!-- web app icon -->
+<link rel="apple-touch-icon" sizes="57x57" href="touch-icon-iphone.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4.png"/>
+<link rel="apple-touch-icon" sizes="144x144" href="touch-icon-ipad3.png"/>
+
+<!-- web app splash screen -->
+		<!-- iPhone SPLASHSCREEN-->
+<link href="apple-touch-startup-image-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+        <!-- iPhone (Retina) SPLASHSCREEN-->
+<link href="apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <!-- iPad (portrait) SPLASHSCREEN-->
+<link href="apple-touch-startup-image-768x1004.png" media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image">
+        <!-- iPad (landscape) SPLASHSCREEN-->
+<link href="apple-touch-startup-image-748x1024.png" media="(device-width: 768px) and (orientation: landscape)" rel="apple-touch-startup-image">
+        <!-- iPad (Retina, portrait) SPLASHSCREEN-->
+<link href="apple-touch-startup-image-1536x2008.png" media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <!-- iPad (Retina, landscape) SPLASHSCREEN-->
+<link href="apple-touch-startup-image-1496x2048.png" media="(device-width: 1536px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+<!-- 
+Para obtener más información sobre los comentarios condicionales situados alrededor de las etiquetas html en la parte superior del archivo:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+  
+Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.modernizr.com/):
+* inserte el vínculo del código js aquí
+* elimine el vínculo situado debajo para html5shiv
+* añada la clase "no-js" a las etiquetas html en la parte superior
+* también puede eliminar el vínculo con respond.min.js si ha incluido MQ Polyfill en su compilación de modernizr 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+<script type="text/javascript">
+function updateSite(event) {
+    window.applicationCache.swapCache();
+}
+window.applicationCache.addEventListener('updateready',
+    updateSite, false);
+</script>
+
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="LayoutDiv1">Utilice el panel Insertar para obtener etiquetas div adicionales de diseño de cuadrícula fluida. Nota: Todas las etiquetas div de diseño deben insertarse directamente dentro de la etiqueta div 'gridContainer'. Actualmente no se admiten etiquetas div de diseño anidadas. </div>
+</div>
+</body>
+</html>
