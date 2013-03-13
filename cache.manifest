@@ -4,7 +4,10 @@ CACHE MANIFEST
 webapp.css
 boilerplate.css
 animate.min.css
+add2home.css
+add2home.js
 respond.min.js
+cacheupdate.js
 
 touch-icon-iphone.png
 touch-icon-ipad.png
