@@ -259,7 +259,9 @@ div {-webkit-text-size-adjust:100%}
 /* Contiene cuadros flotantes: h5bp.com/q */ 
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
+.clearfix {
+	zoom: 1;
+}
 
 
 /* ==|== estilos de impresión =======================================================
