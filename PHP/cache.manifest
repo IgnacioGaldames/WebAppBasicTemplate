@@ -1,0 +1,37 @@
+CACHE MANIFEST
+# Cache manifest version 0.0.1
+
+webapp.css
+boilerplate.css
+animate.min.css
+add2home.css
+add2home.js
+respond.min.js
+cacheupdate.js
+
+touch-icon-iphone.png
+touch-icon-ipad.png
+touch-icon-iphone4.png
+touch-icon-ipad3.png
+
+apple-touch-startup-image-320x460.png
+apple-touch-startup-image-640x920.png
+apple-touch-startup-image-768x1004.png
+apple-touch-startup-image-748x1024.png
+apple-touch-startup-image-1536x2008.png
+apple-touch-startup-image-1496x2048.png
+
+ 
+NETWORK:
+# All URLs that start with the following lines
+# are whitelisted.
+http://example.com/examplepath/
+http://www.example.org/otherexamplepath/
+ 
+CACHE:
+# Additional items to cache.
+demoimages/stonessmall.jpg
+ 
+FALLBACK:
+demoimages/currentImg.jpg 
+images/stockImage.jpg

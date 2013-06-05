@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/2.0">
+  <filename>Github</filename>
+  <description>Air App</description>
+  <customUpdateUI>false</customUpdateUI>
+  <id>Github</id>
+  <version>1</version>
+  <initialWindow>
+    <content>index.html</content>
+    <height>600</height>
+    <width>800</width>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+  </initialWindow>
+  <icon>
+    <image128x128>air-app-icon-128px.png</image128x128>
+    <image48x48>air-app-icon-48px.png</image48x48>
+    <image32x32>air-app-icon-32px.png</image32x32>
+    <image16x16>air-app-icon-16px.png</image16x16>
+  </icon>
+</application>

@@ -1,0 +1,49 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+
+                            
+/* TEAM */
+
+                            
+Creator: Ignacio Galdames.
+
+                            
+Site: http://ignaciogaldames.tk.
+
+                            
+Twitter: @caminanteste1ar.
+
+                            
+Location: Santiago, Chile.
+
+                         
+                 
+                        [...]
+						
+
+							
+/* THANKS */
+
+							
+Name: name or url
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: 2013/05/05 
+
+                            
+Standards: HTML5, CSS3,..
+
+                            
+Components:  jQuery, addtohome, Animate.css
+
+                            
+Software: Adobe Dreamweaver CS6
