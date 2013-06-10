@@ -146,7 +146,7 @@ var addToHome = (function (w) {
 				}
 			}
 
-			touchIcon = '<span style="background-image:url(' + touchIcon + ')" class="addToHomeTouchIcon"></span>';
+			touchIcon = '<span style="background-image:url('../ + touchIcon + ')" class="addToHomeTouchIcon"></span>';
 		}
 
 		balloon.className = (isIPad ? 'addToHomeIpad' : 'addToHomeIphone') + (touchIcon ? ' addToHomeWide' : '');

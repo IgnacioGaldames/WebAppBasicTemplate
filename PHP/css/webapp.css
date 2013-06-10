@@ -5,8 +5,8 @@
    http://www.alistapart.com/articles/fluid-images/ 
 */
 body {
-	background: -webkit-image-set( url(img/low_contrast_linen.png)    1x,
-				url(img/low_contrast_linen_@2X.png) 2x);/* CSS Document */
+	background: -webkit-image-set( url(../img/low_contrast_linen.png) 1x,
+url(../img/low_contrast_linen_@2X.png) 2x);/* CSS Document */
 }
 img, object, embed, video {
 	max-width: 100%;

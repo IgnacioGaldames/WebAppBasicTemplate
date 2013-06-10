@@ -8,11 +8,11 @@
 <head>
 <meta charset="utf-8">
 <title>Web App Template</title>
-<link href="webapp.css" rel="stylesheet" type="text/css">
-<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/webapp.css" rel="stylesheet" type="text/css">
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
 
 <!-- Animate-->
-<link href="animate.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.min.css" rel="stylesheet" type="text/css">
 
 <?php require_once('web-app-on.php'); ?>
 <?php require_once('opera-speed-dial-favicon.php'); ?>
@@ -34,16 +34,16 @@ Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.
 -->
 
 <!-- Add 2 Home-->
-<link rel="stylesheet" href="add2home.css">
-<script type="application/javascript" src="add2home.js"></script>
+<link rel="stylesheet" href="css/add2home.css">
+<script type="application/javascript" src="js/add2home.js"></script>
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<script src="respond.min.js"></script>
+<script src="js/respond.min.js"></script>
 
 <!-- cache update-->
-<script type="text/javascript" src="cacheupdate.js"></script>
+<script type="text/javascript" src="js/cacheupdate.js"></script>
 <link type="text/plain" rel="author" href="humans.txt" />
 </head>
