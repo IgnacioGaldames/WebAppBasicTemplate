@@ -1,14 +1,8 @@
 (function(){
 	var webappCache = window.applicationCache;
-	
-	function loaded()
-	{
-		var h2Title = document.querySelector("h2 a");
-		var connectionStatus = ((navigator.onLine) ? 'online' : 'offline');
-		
-		h2Title.textContent = h2Title.textContent + " - currently: " + connectionStatus;
-		document.title = document.title.replace(" | "," - currently: " + connectionStatus + " | ");
-		
+
+	function loaded() {
+
 		switch(webappCache.status)
 		{
 			case 0:
@@ -35,6 +29,7 @@
 	{
 		webappCache.swapCache();
 		console.log("Cache has been updated due to a change found in the manifest");
+
 	}
 	function errorCache()
 	{
@@ -44,4 +39,13 @@
 	window.addEventListener("load", loaded, false);
 	webappCache.addEventListener("updateready", updateCache, false);
 	webappCache.addEventListener("error", errorCache, false);
+
 })();
+
+function onUpdateReady() {
+    window.location.reload();
+}
+window.applicationCache.addEventListener('updateready', onUpdateReady);
+if(window.applicationCache.status === window.applicationCache.UPDATEREADY) {
+  onUpdateReady();
+}
